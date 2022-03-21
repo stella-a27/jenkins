@@ -29,4 +29,10 @@ public class TeacherController {
 		return list.toString();   
 		
 	}
+	@GetMapping(path ="/messages")
+	public String getmessage() {
+		
+		return "Welcome to pipeline";
+		
+	}
 }
