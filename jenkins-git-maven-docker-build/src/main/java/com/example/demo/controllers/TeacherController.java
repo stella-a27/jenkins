@@ -32,7 +32,7 @@ public class TeacherController {
 	@GetMapping(path ="/messages")
 	public String getmessage() {
 		
-		return "Welcome to pipeline";
+		return "Welcome to pipeline";  
 		
 	}
 }
